@@ -517,7 +517,8 @@ h1 {
       display: -ms-flexbox;
       display: flex; }
     .contacts__form {
-      width: calc(50% - 10px); } }
+      width: calc(50% - 10px);
+      margin-right: 0; } }
 
 .footer {
   position: relative;
