@@ -141,8 +141,8 @@ h1 {
     text-transform: uppercase;
     border-radius: 8px;
     color: white;
-    -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out; }
     .nav__link:hover {
       color: #b9c1ce; }
     .nav__link--active {
@@ -243,8 +243,10 @@ h1 {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
   .gallery__image:hover {
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
@@ -267,8 +269,10 @@ h1 {
   border: 2px solid #0075ff;
   color: #0075ff;
   font-weight: bold;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
   .gallery__button:hover {
     color: #fff;
     background-color: #0075ff;
@@ -350,7 +354,11 @@ h1 {
     line-height: 14px;
     padding: 17px;
     background: #f7f8ff;
-    border: none; }
+    border: none;
+    -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
     .form__input:last-of-type {
       margin-bottom: 32px; }
     .form__input::-webkit-input-placeholder {
@@ -388,8 +396,10 @@ h1 {
     background-color: #0075ff;
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
-    -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
     .form__button:hover {
       background-color: #1a00ac;
       -webkit-box-shadow: 0 6px 23px rgba(26, 0, 172, 0.46);
