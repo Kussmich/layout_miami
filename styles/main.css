@@ -349,6 +349,7 @@ h1 {
   .form__input {
     display: block;
     width: 100%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     margin-bottom: 16px;
     border-radius: 8px;
     font-size: 14px;
@@ -364,24 +365,19 @@ h1 {
       margin-bottom: 32px; }
     .form__input::-webkit-input-placeholder {
       font-weight: normal;
-      color: #b9c1ce;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      color: #b9c1ce; }
     .form__input::-moz-placeholder {
       font-weight: normal;
-      color: #b9c1ce;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      color: #b9c1ce; }
     .form__input:-ms-input-placeholder {
       font-weight: normal;
-      color: #b9c1ce;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      color: #b9c1ce; }
     .form__input::-ms-input-placeholder {
       font-weight: normal;
-      color: #b9c1ce;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      color: #b9c1ce; }
     .form__input::placeholder {
       font-weight: normal;
-      color: #b9c1ce;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; }
+      color: #b9c1ce; }
     .form__input:focus {
       -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
               box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
